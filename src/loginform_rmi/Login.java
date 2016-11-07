@@ -1,6 +1,7 @@
 
 package loginform_rmi;
 
+import Login.beans.MenuAutores;
 import java.io.IOException;
 import java.io.Serializable;
 import java.net.Socket;
@@ -138,6 +139,8 @@ public class Login extends javax.swing.JFrame implements RMIClientSocketFactory,
             if(f==true)
             {
                 JOptionPane.showMessageDialog(null, "Login com sucesso");
+                MenuAutores ma = new MenuAutores();
+                ma.lista();
                   
             }
             else {
