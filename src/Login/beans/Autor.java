@@ -16,8 +16,8 @@ public class Autor {
     }
     public List lista1(){
     livros.add("Deuses Americanos, ISBN: 8995764590 "
-            + "O livro do Cemiterio, "
-            + "Sandman");
+            + "/n O livro do Cemiterio, ISBN: 26358441 "
+            + "/n Sandman, ISBN: 854726841");
     return livros;
     }
     public List lista2(){
