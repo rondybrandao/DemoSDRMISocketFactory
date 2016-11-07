@@ -19,29 +19,27 @@ public class MenuAutores {
         switch(autor){
             case 1:
                 Autor a1 = new Autor();
-                a1.setNome("Neil Gaiman");
-                String nome = a1.getNome();
                 JOptionPane.showMessageDialog(null, a1.lista1());
                 break;
                 
             case 2:
                 Autor a2 = new Autor();
-                JOptionPane.showMessageDialog(null, a2.lista1());
+                JOptionPane.showMessageDialog(null, a2.lista2());
                 break;
                 
             case 3:
                 Autor a3 = new Autor();
-                JOptionPane.showMessageDialog(null, a3.lista1());
+                JOptionPane.showMessageDialog(null, a3.lista3());
                 break;
                 
             case 4:
                 Autor a4 = new Autor();
-                JOptionPane.showMessageDialog(null, a4.lista1());
+                JOptionPane.showMessageDialog(null, a4.lista4());
                 break;
          
             case 5:
                 Autor a5 = new Autor();
-                JOptionPane.showMessageDialog(null, a5.lista1());
+                JOptionPane.showMessageDialog(null, a5.lista5());
                 break;
             
             default:
