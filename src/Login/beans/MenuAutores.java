@@ -10,10 +10,9 @@ public class MenuAutores {
         int autor;
         autor = Integer.parseInt( JOptionPane.showInputDialog("Escolha um autor:"+
               "\n1.Neil Gaiman"+
-              "\n1.Ricardo Lecheta"+
-              "\n2.J.J. Benitez"+
-              "\n3.Deitel"+
-              "\n4.Ilana Casoy"+
+              "\n2.Ricardo Lecheta"+
+              "\n3.J.J. Benitez"+
+              "\n4.Deitel"+
               "\n5.Alan Poe"));
         
         switch(autor){

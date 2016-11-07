@@ -15,14 +15,14 @@ public class Autor {
         return nome;
     }
     public List lista1(){
-    livros.add("Deuses Americanos, ISBN: 8995764590 ");
-    livros.add("O livro do Cemiterio, ISBN: 26358441 "); 
-    livros.add("Sandman, ISBN: 854726841");
+    livros.add("Deuses Americanos, ISBN: 8995764590");
+    livros.add("\nO livro do Cemiterio, ISBN: 26358441"); 
+    livros.add("\nSandman, ISBN: 854726841");
     return livros;
     }
     public List lista2(){
     livros.add("Google Android, ISBN: 9576164590"
-           + "Web Service RESTFull, ISBN: 978-85-7522-454-0");
+           + "\nWeb Service RESTFull, ISBN: 978-85-7522-454-0");
             
     return livros;
     }
