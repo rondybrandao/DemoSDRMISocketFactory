@@ -15,16 +15,16 @@ import loginform_rmi.LoginInterface;
 public class LoginImplement extends UnicastRemoteObject implements LoginInterface
 {
 
-    public LoginImplement()throws RemoteException
-    {
-     
+    public LoginImplement(int port)throws RemoteException{
+        super(port);
     }
     public boolean getLogin(String user, String pass) throws RemoteException 
     {
         boolean found=false;
         try 
         {
-            if(user.equals("admin") && pass.equals("123")||user.equals("admin1") && pass.equals("1234")||user.equals("admin2") && pass.equals("12345") )
+            if(user.equals("admin") && pass.equals("123")||user.equals("admin1") 
+                    && pass.equals("1234")||user.equals("admin2") && pass.equals("12345") )
             {
                 return found=true;
                
