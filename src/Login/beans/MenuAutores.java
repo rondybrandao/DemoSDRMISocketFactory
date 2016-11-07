@@ -19,6 +19,8 @@ public class MenuAutores {
         switch(autor){
             case 1:
                 Autor a1 = new Autor();
+                a1.setNome("Neil Gaiman");
+                String nome = a1.getNome();
                 JOptionPane.showMessageDialog(null, a1.lista1());
                 break;
                 
