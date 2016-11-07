@@ -12,7 +12,7 @@ package Login.Server;
 import java.rmi.*;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-import login_imprement.LoginImplement;
+import login_implement.LoginImplement;
 public class LoginServer 
 {
  public static void main(String[]args)
